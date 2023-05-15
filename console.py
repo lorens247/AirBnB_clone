@@ -1,12 +1,15 @@
 #!/usr/bin/python3
 """a program the contains the entry point of the command interpreter"""
 import cmd
+import sys
+
 from models.base_model import BaseModel
 from models import storage
 
 
 class HBNBCommand(cmd.Cmd):
     """Defines a class which is the entry point command interpreter"""
+    intro = 'Welcome to the AirBnB console! Typehelp to list commands. \n'
     prompt = "(hbnb) "
 
     def do_quit(self, line):
