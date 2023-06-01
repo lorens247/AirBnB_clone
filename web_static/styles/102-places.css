@@ -1,0 +1,179 @@
+.places {
+    display        : flex;
+    flex-direction : row;
+    flex-wrap      : wrap;
+    justify-content: center;
+    margin-bottom  : 5%;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+  
+.places h1 {
+    font-size    : 30px;
+    flex         : 0 1 100%;
+    margin-bottom: 0;
+    padding      : 0.5em 0 0 0.6em;
+}
+
+.places article {
+    width          : 390px;
+    margin         : 20px;
+    padding        : 20px;
+    border         : 1px solid #FF5a5F;
+    border-radius  : 4px;
+    display        : flex;
+    flex-direction : column;
+    justify-content: flex-start;
+    position       : relative;
+}
+
+
+.places article h2 {
+    font-size : 30px;
+    align-self: center;
+    margin    : 0;
+}
+
+.price_by_night {
+    font-size      : 30px;
+    height         : 60px;
+    color          : #FF5a5F;
+    border         : #FF5a5F solid 4px;
+    border-radius  : 50%;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    min-width      : 60px;
+    position       : absolute;
+    top            : 10px;
+    right          : 20px;
+
+}
+
+.information {
+    height         : 80px;
+    border-top     : #DDDDDD 1px solid;
+    border-bottom  : #DDDDDD 1px solid;
+    margin-top     : 1.8em;
+    width          : 100%;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    flex-direction : row;
+}
+
+.icon_group {
+    background-image: url("../images/icon_group.png");
+    background-repeat: no-repeat;
+    background-position: justify;
+    height: 50px;
+}
+  
+.icon_bed {
+    background-image: url("../images/icon_bed.png");
+    background-repeat: no-repeat;
+    background-position: justify;
+    height: 50px;
+}
+  
+  .icon_bath {
+    background-image: url("../images/icon_bath.png");
+    background-repeat: no-repeat;
+    background-position: justify;
+    height: 50px;
+}
+  
+.user {
+    text-align: initial;
+    padding: 10px 0;
+}
+  
+article .amenities,
+article .reviews {
+    margin-top: 40px;
+}
+
+article .amenities h2,
+article .reviews h2 {
+    text-align: initial;
+    font-size: 16px;
+    border-bottom: #dddddd solid 1px;
+}
+  
+article .amenities ul,
+article .reviews ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+  
+article .amenities ul li {
+    padding: 5px;
+}
+  
+article .reviews h3 {
+    font-size: 14px;
+}
+  
+article .reviews p {
+    font-size: 12px;
+}
+  
+.icon_cab {
+    display: inline-block;
+    background-image: url("../images/icon_cab.png");
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+  
+.icon_spa {
+    display: inline-block;
+    background-image: url("../images/icon_spa.png");
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+  
+.icon_hall {
+    display: inline-block;
+    background-image: url("../images/icon_hall.png");
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+  
+.icon_wifi {
+    display: inline-block;
+    background-image: url("../images/icon_wifi.png");
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+  
+.icon_tv {
+    display: inline-block;
+    background-image: url("../images/icon_tv.png");
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+  
+.icon_pets {
+    display: inline-block;
+    background-image: url("../images/icon_pets.png");
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
